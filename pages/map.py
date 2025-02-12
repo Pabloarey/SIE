@@ -100,13 +100,13 @@ def display_map(df):
                                                                                                                                                 localize=True,
                                                                                                                                                 sticky=False,
                                                                                                                                                 labels=True,
+                                                                                                                                                max_width=800,
                                                                                                                                                 style="""
                                                                                                                                                     background-color: #F0EFEF;
                                                                                                                                                     border: 2px solid black;
                                                                                                                                                     border-radius: 3px;
                                                                                                                                                     box-shadow: 3px;
-                                                                                                                                                    """,
-                                                                                                                                                max_width=800,))
+                                                                                                                                                    """))
     map.add_child(polig)
     
     Escuelas=gpd.read_file(urlESCUELAS)
