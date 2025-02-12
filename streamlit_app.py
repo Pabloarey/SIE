@@ -10,6 +10,7 @@ st.set_page_config(initial_sidebar_state="collapsed",    page_title="SIE",
 
 pages = ["Tablero","Mapa"]
 parent_dir = os.path.dirname(os.path.abspath(__file__))
+urls = {"GitHub":"https://github.com/Pabloarey/SIE/"}
 logo_path = os.path.join(parent_dir, "./logos/SIE-SVG.svg")
 styles = {
     "nav": {
@@ -38,6 +39,7 @@ options = {
 page = st_navbar(
     pages,
     logo_path=logo_path,
+    urls=urls,
     styles=styles,
     options=options,
 )
