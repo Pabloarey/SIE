@@ -6,8 +6,9 @@ import pages as pg
 
  
 st.set_page_config(initial_sidebar_state="collapsed",    page_title="SIE",
-    layout="wide",
-    )
+                   page_icon="./logos/SIE.jpeg",
+                   layout="wide",
+                   )
 
 pages = ["Tablero","Mapa"]
 parent_dir = os.path.dirname(os.path.abspath(__file__))
