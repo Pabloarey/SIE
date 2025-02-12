@@ -153,14 +153,9 @@ def display_map(df):
     st_map = st_folium(map, use_container_width=True)
     state_name = ''
     if st_map['last_active_drawing']:
-        state_name = st_map['last_active_drawing']['properties']['circuito']         
-          
+        state_name = st_map['last_active_drawing']['properties']['circuito']                 
     return state_name
-    
-    
-    
-#https://github.com/zakariachowdhury/streamlit-map-dashboard/blob/main/streamlit_app.py
-#https://www.youtube.com/watch?v=uXj76K9Lnqc
+
 def show_map():  
     # Titulo de la página
     state_name = display_map(df)
