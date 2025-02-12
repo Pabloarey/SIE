@@ -33,7 +33,6 @@ styles = {
 options = {
     "show_menu": False,
     "show_sidebar": False,
-    "use_padding": False
 }
 
 page = st_navbar(
@@ -50,4 +49,4 @@ functions = {
 }
 go_to = functions.get(page)
 if go_to:
-    go_to()
+    go_to(st.write(page))
