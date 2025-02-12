@@ -6,6 +6,6 @@ geopandas
 folium
 webbrowser
 numpy
-streamlit_folium
+streamlit-folium
 branca
-streamlit_navigation_bar
+streamlit-navigation-bar
