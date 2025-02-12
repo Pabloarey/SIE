@@ -49,4 +49,4 @@ functions = {
 }
 go_to = functions.get(page)
 if go_to:
-    go_to(st.write(page))
+    go_to()
