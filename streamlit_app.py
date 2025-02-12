@@ -33,6 +33,7 @@ styles = {
 options = {
     "show_menu": False,
     "show_sidebar": False,
+    "use_padding": False
 }
 
 page = st_navbar(
@@ -41,7 +42,7 @@ page = st_navbar(
     styles=styles,
     options=options,
 )
-
+st.write(page)
 
 functions = {
     "Home": pg.show_home,
