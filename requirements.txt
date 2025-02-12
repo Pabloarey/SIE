@@ -9,3 +9,5 @@ numpy
 streamlit-folium
 branca
 streamlit-navigation-bar
+matplotlib
+sklearn
