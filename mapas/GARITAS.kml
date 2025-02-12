@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="GARITAS" id="GARITAS">
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="DESCRIP" type="string"></SimpleField>
+	<SimpleField name="ZONAS" type="string"></SimpleField>
+	<SimpleField name="ETAPA" type="string"></SimpleField>
+</Schema>
+<Folder><name>GARITAS</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.800504784786,-28.4706660996127,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7983056636955,-28.4704518403546,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8032369377418,-28.4707450989045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8094000407328,-28.4711339655488,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8093695614854,-28.4712682432051,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8167754848624,-28.4716299950362,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8218634497206,-28.4702769837849,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8236712594735,-28.4696384457966,-1511.00631640654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8321166975968,-28.4659363460256,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8479503925431,-28.4428438386529,-1362.33055023296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7329776390282,-28.4348367653667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7325598932563,-28.4334323975179,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7316132441059,-28.4221820126262,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7312949149585,-28.4167740889945,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7739586321465,-28.4835662443207,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7777101274103,-28.4849638671387,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7700890922223,-28.4757897512858,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7735841965182,-28.4760900463965,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7737452126479,-28.47613372057,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7735605345315,-28.4808639673825,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7733779896815,-28.4818257867982,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7741848487956,-28.4833696619424,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7776585911345,-28.4964057771229,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7784002338963,-28.4983403880389,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8046752950946,-28.4660821717011,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8008322757847,-28.4694283527736,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8015315594635,-28.4645833357788,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7881289564201,-28.4339849781774,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7834666254093,-28.43226926186,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7836824510791,-28.4349178513899,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7655369380994,-28.4368100493193,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7618528488989,-28.4333837662987,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7703387274317,-28.4384306943314,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8016963363749,-28.4613712292364,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8170520291164,-28.4993293859067,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8186958025589,-28.5008519192018,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8214469308166,-28.5025534260943,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8155604070992,-28.5116716537079,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8194275190774,-28.5064145465072,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8193226696976,-28.5162296023407,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8169458102644,-28.5183207320975,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8186837255204,-28.5093647247482,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8041229684938,-28.4947004557332,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7982285697797,-28.4941168716645,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7530354439412,-28.4644137182724,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7422530695867,-28.4546741310732,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7394924677594,-28.4528416782337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7334210461484,-28.4480292803618,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7716289426464,-28.4444676269301,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7335922186397,-28.4409142693595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G1&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7736353716021,-28.4509692702517,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G2&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7675385148262,-28.4403714693292,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G3&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7677262949698,-28.4398237927919,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G4&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7655719851462,-28.4428640247239,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G5&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7396140314526,-28.4530531280485,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G6&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7495197364309,-28.4620002174136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G7&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7476628817988,-28.4592912749509,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G8&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.750856828317,-28.4642473012899,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G9&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7584490382349,-28.4630785946882,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G10&quot;</SimpleData>
+		<SimpleData name="ZONAS">ESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.761549892826,-28.462904917857,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1&quot;</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7986000427095,-28.4611417197177,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8026171287396,-28.4597649398385,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7924655660705,-28.457219512117,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7882178104358,-28.4479214304628,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7816431570891,-28.4601911138364,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7686115173945,-28.4324679462426,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7773382215776,-28.4245554449032,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7827779740604,-28.4391375414438,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9&quot;</SimpleData>
+		<SimpleData name="ZONAS">NORTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7713299662758,-28.4279622097019,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10&quot;</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7880580035903,-28.4689336111512,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 1&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7955189012432,-28.4882144670721,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 2&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7945132847201,-28.4890738029211,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 3&quot;</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.789705244936,-28.479705927871,-1639.31845535428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 4&quot;</SimpleData>
+		<SimpleData name="ZONAS">OESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7896061513918,-28.4838197859905,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 5&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUR</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7828799218705,-28.494049046376,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 6&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7872194183303,-28.4990104828785,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 7&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7843538256979,-28.4997927473045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 8&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.790189105137,-28.5038036088154,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 9&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7930255937734,-28.5024463934577,-1678.07267585746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GARITAS">
+		<SimpleData name="NOMBRE">G 10&quot;</SimpleData>
+		<SimpleData name="ZONAS">SUDOESTE</SimpleData>
+		<SimpleData name="ETAPA">VERDE</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7946235968443,-28.5018732877806,-1673.23418089977</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
