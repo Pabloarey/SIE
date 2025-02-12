@@ -50,6 +50,6 @@ functions = {
     "Tablero": pg.show_tablero,
     "Mapa": pg.show_map,
 }
-go_to = functions.get(st.write(page))
+go_to = functions.get(page)
 if go_to:
     go_to()
