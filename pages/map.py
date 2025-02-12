@@ -47,21 +47,7 @@ for j in contenido:
         shapes.append(j)
     elif j.endswith('.geojson'):
         geojsons.append(j)
-urlCAMARAS = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CAMARAS - WIFI/CAMARAS_PLAN_DE_METAS2.shp'
-urlWIFI = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CAMARAS - WIFI/WIFI_PLAN_DE_METAS2.shp'
-urlSALUD = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CENTROS DE SALUD/CENTROS_SALUD_CAPTAL2.shp'
-urlDEPORTES1 = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CLUBES/CANCHITAS_METAS2.shp'
-urlDEPORTES2 = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CLUBES/Deportes2.shp'
-urlESCUELAS = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/ESCUELAS/ESCUELAS_SFVC2.shp'
-urlCONTENEDORES1 = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/GIRO - CONTENEDORES/Contenedores_GIRO2.shp'
-urlCONTENEDORES2 = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/GIRO - CONTENEDORES/CONTENEDORES_METAS2.shp'
-urlCONTENEDORES3 = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/GIRO - CONTENEDORES/Radio_abarcado_GIRO2.shp'
-urlGARITAS = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/PARADAS- GARITAS- RECORRIDO OMNIBUS/GARITAS2.shp'
-urlPARADAS = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/PARADAS- GARITAS- RECORRIDO OMNIBUS/PARADAS DE COLECTIVOS2.shp'
-urlRECORRIDOS = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/PARADAS- GARITAS- RECORRIDO OMNIBUS/TRANSPORTE-PUBLICO_RECORRIDO2.shp'
-urlVECINALES = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/SE.PA.VE - C.I.C. - CENTRO VECINAL/CENTROS_VECINALES2.shp'
-urlCIIC = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/SE.PA.VE - C.I.C. - CENTRO VECINAL/CIIC2.shp'
-urlSEPAVE = 'C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/SE.PA.VE - C.I.C. - CENTRO VECINAL/SE.PA.VE2.shp'
+urlESCUELAS = './mapas/ESCUELAS_SFVC2.shp'
 # paso a string variable circuito y le agrego 0 por delante para contener 5 dígitos
 b=[]
 for i, row in df.iterrows():
@@ -105,7 +91,7 @@ def display_map(df):
     macro._template = Template(legend_template)
     map.get_root().add_child(macro)
     
-    SALUD=gpd.read_file('C:/Users/Pablo/Documents/PYME SOLUTIONs/Mega base elecciones/Catamarca/Shapes/Adicionales/INFORMACION CATAMARCA-(SHP)/CENTROS DE SALUD/CENTROS_SALUD_CAPTAL2.shp')
+    SALUD=gpd.read_file('./mapas/CENTROS_SALUD_CAPTAL2.shp')
     polig=folium.GeoJson(SALUD,name="Salud",marker = folium.Marker(icon=folium.Icon(fill_color="green",icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'
                                                                                                                                                     ],
                                                                                                                                                 aliases=["Nombre Centro de Salud: ",
