@@ -20,7 +20,7 @@ styles = {
         "padding-right": "14px",
     },
     "span": {
-        "color": "white",
+        "color": "black",
         "padding": "14px",
     },
     "active": {
