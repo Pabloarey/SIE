@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import streamlit as st
 from streamlit_navigation_bar import st_navbar
-import pages as pg
+import .pages as pg
 
  
 st.set_page_config(initial_sidebar_state="collapsed",    page_title="SIE",
@@ -31,8 +31,8 @@ styles = {
     }
 }
 options = {
-    "show_menu": True,
-    "show_sidebar": True,
+    "show_menu": False,
+    "show_sidebar": False,
 }
 
 page = st_navbar(
