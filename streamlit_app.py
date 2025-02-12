@@ -42,7 +42,6 @@ page = st_navbar(
     styles=styles,
     options=options,
 )
-st.write(page)
 
 functions = {
     "Home": pg.show_home,
@@ -51,4 +50,4 @@ functions = {
 }
 go_to = functions.get(page)
 if go_to:
-    go_to()
+    st.write(go_to())
