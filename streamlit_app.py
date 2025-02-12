@@ -31,8 +31,8 @@ styles = {
     }
 }
 options = {
-    "show_menu": False,
-    "show_sidebar": False,
+    "show_menu": True,
+    "show_sidebar": True,
 }
 
 page = st_navbar(
