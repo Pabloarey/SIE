@@ -49,5 +49,5 @@ functions = {
     "Mapa": pg.show_map,
 }
 go_to = functions.get(page)
-if go_to:
-    st.write(go_to())
+if st.write(go_to):
+    go_to()
