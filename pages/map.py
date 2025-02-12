@@ -104,7 +104,8 @@ def display_map(df):
                                                                                                                                                     background-color: #F0EFEF;
                                                                                                                                                     border: 2px solid black;
                                                                                                                                                     border-radius: 3px;
-                                                                                                                                                    box-shadow: 3px;""",
+                                                                                                                                                    box-shadow: 3px;
+                                                                                                                                                    """,
                                                                                                                                                 max_width=800,))
     map.add_child(polig)
     
