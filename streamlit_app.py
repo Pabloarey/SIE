@@ -13,7 +13,6 @@ st.set_page_config(initial_sidebar_state="collapsed",    page_title="SIE",
 pages = ["Tablero","Mapa"]
 parent_dir = os.path.dirname(os.path.abspath(__file__))
 logo_path = os.path.join(parent_dir, "./logos/SIE-SVG.svg")
-urls = {"GitHub": "https://github.com/gabrieltempass/streamlit-navigation-bar"}
 styles = {
     "nav": {
         "background-color": "royalblue",
