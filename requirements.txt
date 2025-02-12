@@ -6,7 +6,7 @@ geopandas
 folium
 webbrowser
 numpy
-streamlit-folium
+streamlit_folium
 branca
 streamlit-navigation-bar
 matplotlib
