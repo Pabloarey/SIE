@@ -15,7 +15,7 @@ if 'usuario' in st.session_state:
   logo_path = os.path.join(parent_dir, "./logos/SIE-SVG.svg")
   styles = {
       "nav": {
-          "background-color": "royalblue",
+          "background-color": "indigo",
           "justify-content": "left",
       },
       "img": {
