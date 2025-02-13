@@ -20,8 +20,8 @@ styles = {
         "padding-right": "14px",
     },
     "span": {
-        "color": "black",
-        "padding": "14px",
+        "color": "white",
+        "padding": "16px",
     },
     "active": {
         "background-color": "white",
