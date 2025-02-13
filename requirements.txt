@@ -54,7 +54,7 @@ setuptools==65.5.0
 shapely==2.0.6
 six==1.17.0
 smmap==5.0.1
-st-theme==1.2.2
+st-theme==1.2.3
 streamlit==1.41.1
 streamlit_folium==0.24.0
 streamlit-navigation-bar==3.3.0
