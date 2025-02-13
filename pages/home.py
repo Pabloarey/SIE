@@ -5,7 +5,8 @@ from sklearn.preprocessing import StandardScaler
 import plotly.graph_objects as go
 
 def show_home():
+    st.header('Herramienta aplicada a **Procesos Electorales**')
     st.image("./logos/SIE.jpeg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-    st.header('Herramientas Multivariadas para realizar Scouting')
+    
     
     
