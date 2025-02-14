@@ -57,25 +57,25 @@ def show_tablero():
     st.header("Resultados electorales")
     # Para elegir la posición a analizar
     st.subheader('Elija la Elección a analizar', divider='rainbow')
-    #Calculo los valores únicos de una columna
-    opc_ele=df["Eleccion"].unique().tolist()
-    opc_circ=df["IdCircuito"].unique().tolist()
-    opc_esc=df["Establecimiento"].unique().tolist()
     opc_agrup=df["Agrupacion"].unique().tolist()
     # pongo un caja de selección con los valores únicos
     col1, col2, col3 = st.columns(3)
+    #Calculo los valores únicos de una columna
+    opc_ele=df["Eleccion"].unique().tolist()
     Opc_Eleccion = col1.selectbox('Elección', options= opc_ele, index=None, placeholder="Elija la elección...")
-    Opc_Circuito = col2.selectbox('Circuito', options= opc_circ, index=None, placeholder="Elija el Circuito Electoral...")
-    Opc_Escuela = col3.selectbox('Establecimiento', options= opc_esc, index=None, placeholder="Elija el establecimiento...")
-    # costruyo nuevo dataframe con el filtro creado de las elecciones realizadas
     if Opc_Eleccion==None:
         dfnew = df
     else:    
         dfnew = df[df['Eleccion']==Opc_Eleccion]
+    opc_circ=dfnew["IdCircuito"].unique().tolist()
+    Opc_Circuito = col2.selectbox('Circuito', options= opc_circ, index=None, placeholder="Elija el Circuito Electoral...")
     if Opc_Circuito==None:
         dfnew = dfnew
     else:    
         dfnew = dfnew[dfnew['IdCircuito']==Opc_Circuito]
+    opc_esc=dfnew["Establecimiento"].unique().tolist()
+    Opc_Escuela = col3.selectbox('Establecimiento', options= opc_esc, index=None, placeholder="Elija el establecimiento...")
+    # costruyo nuevo dataframe con el filtro creado de las elecciones realizadas
     if Opc_Escuela==None:
         dfnew = dfnew
     else:    
