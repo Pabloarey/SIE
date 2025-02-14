@@ -62,7 +62,7 @@ def show_tablero():
     col1, col2, col3 = st.columns(3)
     #Calculo los valores únicos de una columna
     opc_ele=df["Eleccion"].unique().tolist()
-    Opc_Eleccion = col1.selectbox('Elección', options= opc_ele, index=None, placeholder="Elija la elección...")
+    Opc_Eleccion = col1.selectbox('Elección', options= opc_ele, index=len(opc_ele)-1, placeholder="Elija la elección...")
     if Opc_Eleccion==None:
         dfnew = df
     else:    
