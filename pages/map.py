@@ -138,7 +138,7 @@ def display_map(df):
             legend_name="Leyenda % JxC21 - Capa Elecciones 2021 Radios",
             highlight=True
         )
-    choropleth.geojson.add_to(map)
+    choropleth.add_to(map)
     
     df_indexed = df_x.set_index('circuito')
     for feature in choropleth.geojson.data['features']:
