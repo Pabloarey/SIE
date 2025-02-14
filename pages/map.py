@@ -106,7 +106,7 @@ def display_map(df):
     map.get_root().add_child(macro)
     
     SALUD=gpd.read_file('./mapas/CENTROS_SALUD_CAPTAL2.shp')
-    polig=folium.GeoJson(SALUD,name="Salud",show=False,marker = folium.Marker(icon=folium.Icon(icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'],
+    polig=folium.GeoJson(SALUD,name="Centros de Salud",show=False,marker = folium.Marker(icon=folium.Icon(icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'],
                                                                                                                                                 aliases=["Nombre Centro de Salud: ",
                                                                                                                                                          "Nivel complejidad: "], 
                                                                                                                                                 localize=True,
@@ -123,7 +123,7 @@ def display_map(df):
     map.add_child(polig)
     
     Escuelas=gpd.read_file(urlESCUELAS)
-    polig=folium.GeoJson(Escuelas,name="Escuelas",show=False,marker = folium.Marker(icon=folium.Icon(color='red',icon="glyphicon-book")),tooltip=folium.GeoJsonTooltip(fields=['fna', 'BARRIO'
+    polig=folium.GeoJson(Escuelas,name="Establecimientos Educativos",show=False,marker = folium.Marker(icon=folium.Icon(color='red',icon="glyphicon-book")),tooltip=folium.GeoJsonTooltip(fields=['fna', 'BARRIO'
                                                                                                                                                     ],
                                                                                                                                                 aliases=["Establecimiento: ",
                                                                                                                                                          "Barrio: "
@@ -142,14 +142,14 @@ def display_map(df):
     
     choropleth = folium.Choropleth(
             geo_data=df_final1,
-            name="Cantidad Votos 2021 Circuitos",
+            name="Cantidad Votos por Circuitos",
             data=df_final,
             columns=('circuito', 'total_votos'),
             key_on='feature.properties.circuito',
             fill_color="YlOrRd",
             fill_opacity=0.5,
             line_opacity=0.5,
-            legend_name="Leyenda % JxC21 - Capa Elecciones 2021 Radios",
+            legend_name="Cantidad Votos por Circuito",
             highlight=True,
             show=False,
         )
