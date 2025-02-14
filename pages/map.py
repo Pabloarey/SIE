@@ -132,7 +132,7 @@ def display_map(df):
             data=df_final,
             columns=('circuito', 'total_votos'),
             key_on='feature.properties.circuito',
-            fill_color="Spectral",
+            fill_color="YlOrRd",
             fill_opacity=0.5,
             line_opacity=0.5,
             legend_name="Leyenda % JxC21 - Capa Elecciones 2021 Radios",
