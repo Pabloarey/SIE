@@ -34,11 +34,6 @@ def generarMenu(usuario):
         nombre= dfUsuario['nombre'].values[0]
         #Mostramos el nombre del usuario
         st.write(f"Hola **:blue-background[{nombre}]** ")
-        # Mostramos los enlaces de páginas
-        st.page_link("pages/home.py", label="Inicio", icon=":material/home:")
-        st.subheader("Tableros")
-        st.page_link("pages/tablero.py", label="Ventas", icon=":material/sell:")
-        st.page_link("pages/map.py", label="Compras", icon=":material/shopping_cart:")
         # Botón para cerrar la sesión
         btnSalir=st.button("Salir")
         if btnSalir:
