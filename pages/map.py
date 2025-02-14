@@ -106,7 +106,7 @@ def display_map(df):
     map.get_root().add_child(macro)
     
     SALUD=gpd.read_file('./mapas/CENTROS_SALUD_CAPTAL2.shp')
-    polig=folium.GeoJson(SALUD,name="Salud",marker = folium.Marker(icon=folium.Icon(icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'],
+    polig=folium.GeoJson(SALUD,name="Salud",show=False,marker = folium.Marker(icon=folium.Icon(icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'],
                                                                                                                                                 aliases=["Nombre Centro de Salud: ",
                                                                                                                                                          "Nivel complejidad: "], 
                                                                                                                                                 localize=True,
@@ -123,7 +123,7 @@ def display_map(df):
     map.add_child(polig)
     
     Escuelas=gpd.read_file(urlESCUELAS)
-    polig=folium.GeoJson(Escuelas,name="Escuelas",marker = folium.Marker(icon=folium.Icon(color='red',icon="glyphicon-book")),tooltip=folium.GeoJsonTooltip(fields=['fna', 'BARRIO'
+    polig=folium.GeoJson(Escuelas,name="Escuelas",show=False,marker = folium.Marker(icon=folium.Icon(color='red',icon="glyphicon-book")),tooltip=folium.GeoJsonTooltip(fields=['fna', 'BARRIO'
                                                                                                                                                     ],
                                                                                                                                                 aliases=["Establecimiento: ",
                                                                                                                                                          "Barrio: "
@@ -150,7 +150,8 @@ def display_map(df):
             fill_opacity=0.5,
             line_opacity=0.5,
             legend_name="Leyenda % JxC21 - Capa Elecciones 2021 Radios",
-            highlight=True
+            highlight=True,
+            show=False,
         )
     choropleth.add_to(map)
     choropleth2 = folium.Choropleth(
