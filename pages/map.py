@@ -67,17 +67,31 @@ df = pd.concat([df,b], axis=1)
 
 df_x = df[df['idAgrupacionInt']>0].groupby(['circuito']).agg(total_votos=('votos', 'sum')).reset_index() 
 df_x1 = df[df['idAgrupacionInt']>0].groupby(['circuito','Agrupacion']).agg(total_votos=('votos', 'sum')).reset_index() 
-print(df_x1)
-
+df_finalf = df_x1.merge(df_x, left_on="circuito", right_on="circuito", how="left")
+df_finalf['Porcentaje'] = round(df_finalf['total_votos_x']/df_finalf['total_votos_y']*100,2)
 gdf = gpd.read_file('./mapas/Catamarca.geojson')
 df_final = df_x.merge(gdf, left_on="circuito", right_on="circuito", how="left")
 df_final1 = gdf.merge(df_x, left_on="circuito", right_on="circuito", how="right")
+df_final2 = gdf.merge(df_x1, left_on="circuito", right_on="circuito", how="right")
 
 # TENGO QIE HACER MERGE entre ambas bases
 #https://folium.streamlit.app/simple_popup
 def display_map(df):
     # ubicar el punto centro del mapa
     mapa = gpd.read_file('./mapas/Radios.geojson')
+    col1, col2 = st.columns(2)
+    #Calculo los valores únicos de una columna
+    dfnew = df[df['tipoVoto']=='positivo']
+    opc_ele=dfnew["Eleccion"].unique().tolist()
+    Opc_Eleccion = col1.selectbox('Elección', options= opc_ele, index=len(opc_ele)-1, placeholder="Elija la elección...")
+    if Opc_Eleccion==None:
+        dfnew = dfnew
+    else:    
+        dfnew = dfnew[dfnew['Eleccion']==Opc_Eleccion]
+    opc_agrup=dfnew["Agrupacion"].unique().tolist()
+    Opc_Agrupación = col2.selectbox('Agrupación', options= opc_agrup, index=0, placeholder="Elija el Circuito Electoral...")
+    df_x2=df_finalf[df_finalf["Agrupacion"]==Opc_Agrupación]
+    df_final3 = df_final2.merge(df_x2, left_on=["circuito",'Agrupacion'], right_on=["circuito",'Agrupacion'], how="right")
     map = mapa.explore(column="clus",  # make choropleth based on "BoroName" column
                     tooltip="clus",  # show "BoroName" value in tooltip (on hover)
                     popup=['link','clus', 'FdT','JxC', 'Otros'],  # show all values in popup (on click)
@@ -139,7 +153,19 @@ def display_map(df):
             highlight=True
         )
     choropleth.add_to(map)
-    
+    choropleth2 = folium.Choropleth(
+            geo_data=df_final3,
+            name=f"Votos {Opc_Agrupación} por Circuitos",
+            data=df_x2,
+            columns=('circuito', 'Porcentaje'),
+            key_on='feature.properties.circuito',
+            fill_color="YlOrRd",
+            fill_opacity=0.5,
+            line_opacity=0.5,
+            legend_name=f"% Votos de {Opc_Agrupación}",
+            highlight=True,
+            show=False,)
+    choropleth2.add_to(map)
     df_indexed = df_x.set_index('circuito')
     for feature in choropleth.geojson.data['features']:
         state_name = feature['properties']['circuito']
@@ -147,6 +173,13 @@ def display_map(df):
 
     choropleth.geojson.add_child(
         folium.features.GeoJsonTooltip(['circuito', 'total_votos'], labels=False)
+    )
+    df_indexed = df_final3.set_index('circuito')
+    for feature in choropleth2.geojson.data['features']:
+        state_name = feature['properties']['circuito']
+        feature['properties']['Porcentaje'] = 'Porcentaje de votos: ' + str(df_indexed.loc[state_name, 'Porcentaje']) if state_name in list(df_indexed.index) else ''
+    choropleth2.geojson.add_child(
+        folium.features.GeoJsonTooltip(['circuito', 'Porcentaje'], labels=False)
     )
     folium.LayerControl().add_to(map)
     st_map = st_folium(map, use_container_width=True)
