@@ -92,11 +92,9 @@ def display_map(df):
     map.get_root().add_child(macro)
     
     SALUD=gpd.read_file('./mapas/CENTROS_SALUD_CAPTAL2.shp')
-    polig=folium.GeoJson(SALUD,name="Salud",marker = folium.Marker(icon=folium.Icon(fill_color="green",icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'
-                                                                                                                                                    ],
+    polig=folium.GeoJson(SALUD,name="Salud",marker = folium.Marker(icon=folium.Icon(icon="glyphicon-header")),tooltip=folium.GeoJsonTooltip(fields=['nam','niv_comple'],
                                                                                                                                                 aliases=["Nombre Centro de Salud: ",
-                                                                                                                                                         "Nivel complejidad: "
-                                                                                                                                                        ], 
+                                                                                                                                                         "Nivel complejidad: "], 
                                                                                                                                                 localize=True,
                                                                                                                                                 sticky=False,
                                                                                                                                                 labels=True,
@@ -106,7 +104,8 @@ def display_map(df):
                                                                                                                                                     border-radius: 3px;
                                                                                                                                                     box-shadow: 3px;
                                                                                                                                                     """,
-                                                                                                                                                max_width=800,))
+                                                                                                                                                max_width=800,),
+                                                                                                                                                style_function=lambda x: {'markerColor': 'blue' if x['properties']['nam']=='AAA' else 'green',},)
     map.add_child(polig)
     
     Escuelas=gpd.read_file(urlESCUELAS)
