@@ -12,7 +12,7 @@ login.generarLogin()
 if 'usuario' in st.session_state:
   pages = ["Tablero","Mapa"]
   parent_dir = os.path.dirname(os.path.abspath(__file__))
-  logo_path = os.path.join(parent_dir, "./logos/SIE-SVG.svg")
+  logo_path = os.path.join(parent_dir, "./logos/home.svg")
   styles = {
       "nav": {
           "background-color": "royalblue",
